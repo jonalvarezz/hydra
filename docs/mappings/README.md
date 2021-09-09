@@ -20,7 +20,7 @@ mappings:
       handler: timestampCall
 ```
 
-Handers receive a signle argument of type defined in `@dzlzv/hydra-common`
+Handers receive a single argument of type defined in `@dzlzv/hydra-common`
 
 *  `eventHanlder` receives a single argument of type `EventContext & StoreContext`
 * `extrinsicHandler`receives a single argument of type `ExtrinsicContext & StoreContext`
